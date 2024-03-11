@@ -1,0 +1,29 @@
+body {
+    background-color: #f0f0f0;
+}
+
+header, nav {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+h1, h2 {
+    border-bottom: 2px solid #333;
+}
+
+p {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%; /* Rajoita kuvan leveys näytön leveyteen */
+    height: auto; /* Säilytä kuvan alkuperäinen korkeus suhteessa leveyteen */
+}

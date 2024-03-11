@@ -1,0 +1,67 @@
+body {
+    width: 90%;
+    margin: 0 auto; /* Keskittää sisällön */
+    background-color: #f9f9f9; /* Kevyt taustaväri koko sivustolle */
+    font-family: Arial, sans-serif; /* Yleinen fontti koko sivustolle */
+}
+
+.container {
+    width: 100%;
+    overflow: auto;
+}
+
+.header {
+    background-color: #333; /* Otsikon taustaväri */
+    color: white; /* Otsikon tekstin väri */
+    padding: 10px 0; /* Ylä- ja alamarginaali otsikolle */
+    text-align: center; /* Keskitä otsikon teksti */
+}
+
+.vertical-nav {
+    float: left; /* Sijoittaa navigoinnin vasemmalle */
+    width: 20%;
+    background-color: #f0f0f0; /* Navigointipalkin taustaväri */
+    padding: 20px 0; /* Lisää paddingia ylös ja alas */
+    min-height: 100vh; /* Asettaa vähimmäiskorkeuden koko näytön korkeudeksi */
+}
+
+.content {
+    float: left; /* Sijoittaa sisällön oikealle */
+    width: 75%; /* Asettaa leveydeksi 75% */
+    padding: 20px; /* Lisää sisältöön paddingia */
+    box-sizing: border-box; /* Padding ei kasvata elementin kokonaisleveyttä */
+    background-color: #fff; /* Sisällön taustaväri */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 8px;
+    background-color: #e0e0e0; /* Jokaisen list-itemin taustaväri */
+    margin-bottom: 2px; /* Erottaa navigointilinkit toisistaan */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Navigointilinkkien tekstiväri */
+    display: block; /* Tekee koko list-itemin alueesta klikattavan */
+}
+
+nav a:hover {
+    color: #017bff; /* Vaihtaa linkkien värin hiiren ollessa päällä */
+    background-color: #d0d0d0; /* Taustaväri hover-tilassa */
+}
+
+.footer {
+    background-color: #333; /* Alatunnisteen taustaväri */
+    color: white; /* Alatunnisteen tekstin väri */
+    text-align: center; /* Keskitä alatunnisteen teksti */
+    padding: 10px 0; /* Ylä- ja alamarginaali alatunnisteelle */
+    position: relative; /* Pitää alatunnisteen paikallaan */
+    bottom: 0; /* Asettaa alatunnisteen sivun alareunaan */
+    width: 100%; /* Asettaa alatunnisteen leveydeksi koko ikkunan */
+}
